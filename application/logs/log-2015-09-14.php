@@ -1,0 +1,56 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2015-09-14 19:54:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 19:54:40 --> Unable to select database: Biblioteca
+ERROR - 2015-09-14 19:55:22 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 19:55:22 --> Query error: Table 'biblioteca.ci_sessions' doesn't exist
+ERROR - 2015-09-14 20:17:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:17:48 --> Session: HMAC mismatch. The session cookie data did not match what was expected.
+ERROR - 2015-09-14 20:17:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:33:32 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:33:32 --> Session: HMAC mismatch. The session cookie data did not match what was expected.
+ERROR - 2015-09-14 20:33:32 --> Severity: Notice  --> Undefined variable: username C:\xampp\htdocs\Biblioteca\application\views\Inicio.php 3
+ERROR - 2015-09-14 20:33:32 --> Severity: Notice  --> Undefined variable: username C:\xampp\htdocs\Biblioteca\application\views\Inicio.php 13
+ERROR - 2015-09-14 20:33:32 --> Severity: Notice  --> Undefined variable: username C:\xampp\htdocs\Biblioteca\application\views\Inicio.php 14
+ERROR - 2015-09-14 20:36:13 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:36:14 --> Severity: Notice  --> Undefined variable: username C:\xampp\htdocs\Biblioteca\application\views\Inicio.php 18
+ERROR - 2015-09-14 20:36:14 --> Severity: Notice  --> Undefined variable: username C:\xampp\htdocs\Biblioteca\application\views\Inicio.php 19
+ERROR - 2015-09-14 20:36:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:36:18 --> Severity: Notice  --> Undefined variable: username C:\xampp\htdocs\Biblioteca\application\views\Inicio.php 18
+ERROR - 2015-09-14 20:36:18 --> Severity: Notice  --> Undefined variable: username C:\xampp\htdocs\Biblioteca\application\views\Inicio.php 19
+ERROR - 2015-09-14 20:38:19 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:38:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:39:10 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:42:20 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:43:10 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:45:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:46:17 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:46:17 --> Severity: Notice  --> Undefined index: session_id C:\xampp\htdocs\Biblioteca\system\libraries\Session.php 289
+ERROR - 2015-09-14 20:46:17 --> Severity: Notice  --> Undefined index: ip_address C:\xampp\htdocs\Biblioteca\system\libraries\Session.php 289
+ERROR - 2015-09-14 20:46:17 --> Severity: Notice  --> Undefined index: user_agent C:\xampp\htdocs\Biblioteca\system\libraries\Session.php 289
+ERROR - 2015-09-14 20:46:17 --> Severity: Notice  --> Undefined index: last_activity C:\xampp\htdocs\Biblioteca\system\libraries\Session.php 289
+ERROR - 2015-09-14 20:46:17 --> Severity: Notice  --> Undefined index: session_id C:\xampp\htdocs\Biblioteca\system\libraries\Session.php 305
+ERROR - 2015-09-14 20:46:17 --> Severity: Notice  --> Undefined index: last_activity C:\xampp\htdocs\Biblioteca\system\libraries\Session.php 306
+ERROR - 2015-09-14 20:46:17 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:46:17 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:46:24 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:46:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:47:04 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:47:06 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:47:07 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:47:08 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:47:09 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:47:10 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:51:08 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:52:41 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 20:54:01 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 21:02:28 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 21:03:14 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 21:03:41 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 21:03:43 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 21:04:23 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 21:04:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 21:05:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 21:06:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 21:07:22 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-09-14 21:07:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Biblioteca\system\database\drivers\mysql\mysql_driver.php 92
