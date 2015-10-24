@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     
-	<title>Catalogo de Flores &hearts; </title>
+	<title>Catalogo de Flores &hearts;&hearts;&hearts; </title>
 	
 	<!--groundwork-->
 	 <script src="js/libs/modernizr-2.6.2.min.js"></script>
