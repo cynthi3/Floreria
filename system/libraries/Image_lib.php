@@ -36,7 +36,7 @@ class CI_Image_lib {
 	var $height				= '';
 	var $quality			= '90';
 	var $create_thumb		= FALSE;
-	var $thumb_marker		= '';
+	var $thumb_marker		= '_thumb';
 	var $maintain_ratio		= TRUE;		// Whether to maintain aspect ratio when resizing or use hard values
 	var $master_dim			= 'auto';	// auto, height, or width.  Determines what to use as the master dimension
 	var $rotation_angle		= '';

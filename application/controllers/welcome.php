@@ -2,21 +2,22 @@
 
 class Welcome extends CI_Controller
 {
-	function __construct(){
+	function __construct()
+	{
 		parent::__construct();
+
+		$this->load->helper('url');
+		$this->load->library('tank_auth');
 	}
 
-	function index(){
+	function index()
+	{
 		if (!$this->tank_auth->is_logged_in()) {
-			$this->load->view('headers/librerias');
-			$this->load->view('inicio');
-			$this->load->view('footer');
+			redirect('/auth/login/');
 		} else {
 			$data['user_id']	= $this->tank_auth->get_user_id();
 			$data['username']	= $this->tank_auth->get_username();
-			$this->load->view('headers/librerias');
-			$this->load->view('principal', $data);
-			$this->load->view('footer');
+			$this->load->view('welcome', $data);
 		}
 	}
 }

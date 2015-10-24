@@ -7,8 +7,8 @@
 | These details are used in emails sent by authentication library.
 |--------------------------------------------------------------------------
 */
-$config['website_name'] = 'Codeigniter';
-$config['webmaster_email'] = 'cyn_ll@hotmail.com';
+$config['website_name'] = 'Your project';
+$config['webmaster_email'] = 'webmaster@your-site.com';
 
 /*
 |--------------------------------------------------------------------------
@@ -40,7 +40,7 @@ $config['phpass_hash_strength'] = 8;
 |--------------------------------------------------------------------------
 */
 $config['allow_registration'] = TRUE;
-$config['captcha_registration'] = FALSE;
+$config['captcha_registration'] = TRUE;
 $config['email_activation'] = TRUE;
 $config['email_activation_expire'] = 60*60*24*2;
 $config['email_account_details'] = TRUE;
@@ -73,7 +73,7 @@ $config['login_by_email'] = TRUE;
 $config['login_record_ip'] = TRUE;
 $config['login_record_time'] = TRUE;
 $config['login_count_attempts'] = TRUE;
-$config['login_max_attempts'] = 3;
+$config['login_max_attempts'] = 5;
 $config['login_attempt_expire'] = 60*60*24;
 
 /*

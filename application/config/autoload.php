@@ -52,7 +52,8 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('database', 'tank_auth', 'form_validation');
+$autoload['libraries'] = array('database', 'tank_auth');
+
 
 /*
 | -------------------------------------------------------------------

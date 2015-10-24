@@ -13,7 +13,7 @@ $lang['auth_captcha_expired'] = 'Your confirmation code has expired. Please try 
 // Notifications
 $lang['auth_message_logged_out'] = 'You have been successfully logged out.';
 $lang['auth_message_registration_disabled'] = 'Registration is disabled.';
-$lang['auth_message_registration_completed_1'] = 'Te has registrado exitosamente. Por favor contacta con el administrador para que active tu cuenta.';
+$lang['auth_message_registration_completed_1'] = 'You have successfully registered. Check your email address to activate your account.';
 $lang['auth_message_registration_completed_2'] = 'You have successfully registered.';
 $lang['auth_message_activation_email_sent'] = 'A new activation email has been sent to %s. Follow the instructions in the email to activate your account.';
 $lang['auth_message_activation_completed'] = 'Your account has been successfully activated.';

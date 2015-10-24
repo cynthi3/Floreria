@@ -13,7 +13,8 @@ class Auth extends CI_Controller
 		$this->lang->load('tank_auth');
 	}
 
-	function index(){
+	function index()
+	{
 		if ($message = $this->session->flashdata('message')) {
 			$this->load->view('auth/general_message', array('message' => $message));
 		} else {
@@ -26,7 +27,8 @@ class Auth extends CI_Controller
 	 *
 	 * @return void
 	 */
-	function login(){
+	function login()
+	{
 		if ($this->tank_auth->is_logged_in()) {									// logged in
 			redirect('');
 
