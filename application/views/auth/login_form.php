@@ -1,4 +1,9 @@
 <?php
+	 $this->load->view("headers/LibreriasGround");
+	$this->load->view('barrasDeHerramientas/barraInvitado');
+?>
+</br>
+<?php
 $login = array(
 	'name'	=> 'login',
 	'id'	=> 'login',
