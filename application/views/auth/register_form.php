@@ -1,4 +1,8 @@
 <?php
+	 $this->load->view("headers/LibreriasGround");
+	$this->load->view('barrasDeHerramientas/barraInvitado');
+?>
+<?php
 if ($use_username) {
 	$username = array(
 		'name'	=> 'username',

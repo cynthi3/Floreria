@@ -37,3 +37,31 @@ ERROR - 2015-10-25 16:09:37 --> 404 Page Not Found --> auth/js
 ERROR - 2015-10-25 16:09:44 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
 ERROR - 2015-10-25 16:09:44 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
 ERROR - 2015-10-25 16:09:44 --> 404 Page Not Found --> auth/js
+ERROR - 2015-10-25 16:12:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:12:28 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:12:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:12:33 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:19:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:19:30 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:19:30 --> Severity: Warning  --> unlink(./captcha/fonts): Permission denied C:\xampp\htdocs\Floreria\system\helpers\captcha_helper.php 99
+ERROR - 2015-10-25 16:19:30 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:19:30 --> 404 Page Not Found --> auth/js
+ERROR - 2015-10-25 16:19:32 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:19:32 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:19:32 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:19:32 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:19:32 --> 404 Page Not Found --> auth/js
+ERROR - 2015-10-25 16:19:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:19:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:19:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:19:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:19:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:19:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:19:42 --> 404 Page Not Found --> auth/js
+ERROR - 2015-10-25 16:19:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:19:45 --> Severity: Warning  --> unlink(./captcha/fonts): Permission denied C:\xampp\htdocs\Floreria\system\helpers\captcha_helper.php 99
+ERROR - 2015-10-25 16:19:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:19:45 --> 404 Page Not Found --> auth/js
+ERROR - 2015-10-25 16:20:54 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:20:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-25 16:20:55 --> 404 Page Not Found --> auth/js

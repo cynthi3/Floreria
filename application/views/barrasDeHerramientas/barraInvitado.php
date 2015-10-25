@@ -37,7 +37,7 @@
 
 
 
-    <li ><a href="<?=base_url()?>">Registrate!</a></li>             <!--Add Funcion correcta -->
+    <li ><a href="<?=base_url()?>auth/register">Registrate!</a></li>             <!--Add Funcion correcta -->
 
     <li ><a href="<?=base_url()?>auth/logout">Inicia Sesión!</a></li>        <!--Add Funcion correcta -->
 
