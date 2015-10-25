@@ -1,3 +1,24 @@
+<header class="padded">
+  <div class="container">
+    <div class="row">
+      <div class="one half">
+        <a href="<?=base_url()?>" target="_parent">
+          <img height="90px" src="<?=base_url()?>groundwork-master/images/logo-floreria.svg" alt="">
+        </a>
+      </div>
+
+  <div class="one half" >
+   <div class="row">
+      <div class="three mobile twelfths skip-six">
+      <i class="icon-twitter icon-3x"></i>
+      <i class="icon-facebook-sign icon-3x"></i>  
+       <i class="icon-github icon-3x"></i> 
+      </div>
+  </div>
+  </div>
+
+</div>
+
 <nav role="navigation" class="nav asphalt" title="Floreria">
   <ul>
     <li><a href="<?=base_url()?>" ><i class="icon-leaf"></i>  Floreria</a></li>
@@ -22,3 +43,6 @@
 
   </ul>
 </nav>
+
+ </div>
+</header>
