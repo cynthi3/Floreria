@@ -3,7 +3,7 @@
     <div class="row">
       <div class="one half">
         <a href="<?=base_url()?>" target="_parent">
-          <img height="90px" src="<?=base_url()?>groundwork-master/images/logo-floreria.svg" alt="">
+          <img height="90px" src="<?=base_url()?>images/logo-floreria.svg" alt="">
         </a>
       </div>
 
