@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <html class="no-js">
 <head>
@@ -15,9 +16,17 @@
   <!-- framework css -->
   <!--[if gt IE 9]><!-->
   <link type="text/css" rel="stylesheet" href="<?=base_url()?>css/groundwork.css">
-	 
-
-
+  <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 
 </head>
 <body>
+
+
+  <style>
+body{
+background: #FFFF99;
+
+
+}
+
+  </style>
