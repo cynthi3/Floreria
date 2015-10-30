@@ -102,3 +102,94 @@ ERROR - 2015-10-30 02:25:24 --> 404 Page Not Found --> js
 ERROR - 2015-10-30 02:25:25 --> 404 Page Not Found --> js
 ERROR - 2015-10-30 02:25:25 --> 404 Page Not Found --> js
 ERROR - 2015-10-30 02:25:28 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 02:26:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 02:27:04 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 02:46:21 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 02:46:30 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 02:46:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 02:46:37 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 02:46:37 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 02:46:37 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 02:46:37 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 02:46:37 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 02:46:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 02:47:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 02:47:40 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 02:47:40 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 02:47:40 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 02:47:41 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 02:47:41 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 02:47:43 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 02:47:43 --> Severity: Notice  --> Undefined variable: cliente C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 52
+ERROR - 2015-10-30 02:47:43 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 52
+ERROR - 2015-10-30 02:49:01 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 02:49:01 --> Severity: Notice  --> Undefined variable: clientes C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 52
+ERROR - 2015-10-30 02:49:01 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 52
+ERROR - 2015-10-30 02:49:59 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 02:49:59 --> Severity: Notice  --> Undefined variable: clientes C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 52
+ERROR - 2015-10-30 02:49:59 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 52
+ERROR - 2015-10-30 02:50:03 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 02:50:04 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 02:50:04 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 02:50:04 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 02:50:04 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 02:50:04 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 02:50:07 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 02:50:07 --> Severity: Notice  --> Undefined variable: clientes C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 52
+ERROR - 2015-10-30 02:50:07 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 52
+ERROR - 2015-10-30 02:53:23 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 02:53:23 --> Severity: Notice  --> Undefined variable: clientes C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 52
+ERROR - 2015-10-30 02:53:23 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 52
+ERROR - 2015-10-30 02:57:32 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 02:57:32 --> Severity: Notice  --> Undefined variable: clientes C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 52
+ERROR - 2015-10-30 02:57:32 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 52
+ERROR - 2015-10-30 02:58:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 02:58:55 --> Severity: Notice  --> Undefined property: stdClass::$nombreCliente C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 57
+ERROR - 2015-10-30 02:58:55 --> Severity: Notice  --> Undefined property: stdClass::$nombreCliente C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 57
+ERROR - 2015-10-30 03:00:00 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 03:00:00 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 03:00:00 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 03:00:00 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 03:00:00 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 03:00:01 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 03:00:03 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 03:00:03 --> Severity: Notice  --> Undefined property: stdClass::$nombreCliente C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 57
+ERROR - 2015-10-30 03:00:03 --> Severity: Notice  --> Undefined property: stdClass::$nombreCliente C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 57
+ERROR - 2015-10-30 03:40:57 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 03:40:57 --> Severity: Notice  --> Undefined property: stdClass::$nombreCliente C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 57
+ERROR - 2015-10-30 03:40:57 --> Severity: Notice  --> Undefined property: stdClass::$nombreCliente C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 57
+ERROR - 2015-10-30 03:42:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 03:42:52 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 03:53:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 03:56:22 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 03:56:23 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 03:56:23 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 03:56:23 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 03:56:28 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 03:56:28 --> Severity: Warning  --> mysql_pconnect(): MySQL server has gone away C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 03:59:57 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 03:59:58 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 03:59:58 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 03:59:58 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 03:59:58 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 03:59:59 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 04:00:00 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 04:00:01 --> Severity: Notice  --> Undefined property: ReporteClientes::$Pdf C:\xampp\htdocs\Floreria\application\controllers\reporteClientes.php 75
+ERROR - 2015-10-30 04:01:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 04:01:45 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 04:01:45 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 04:01:45 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 04:01:46 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 04:01:46 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 04:01:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 04:03:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 04:03:37 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 04:03:37 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 04:03:37 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 04:03:38 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 04:03:38 --> 404 Page Not Found --> js
+ERROR - 2015-10-30 04:03:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 04:08:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 04:10:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 04:14:25 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
+ERROR - 2015-10-30 04:28:00 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Floreria\system\database\drivers\mysql\mysql_driver.php 92
