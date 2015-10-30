@@ -13,7 +13,7 @@ class MantenimientoClientes extends CI_Controller {
  
  //Obtener datos de la tabla 'contacto'
  $usuario = $this->modeloMantenimientoAdministrador->getData(); //llamamos a la función getData() del modelo creado anteriormente.
- 
+
  $data['usuario'] = $usuario;
  
  //load de vistas
@@ -43,10 +43,12 @@ class MantenimientoClientes extends CI_Controller {
  $this->load->model('modeloMantenimientoAdministrador');
  $this->modeloMantenimientoAdministrador->baja($nombre);
  //mostramos la vista de nuevo.
- $this->index();
+  $this->index();
  }
  function accion() {
  //cargamos el modelo y obtenemos la información del contacto seleccionado.
+ $this->load->view('headers/LibreriasGround');
+ $this->load->view('footers/footer');
  $this->load->model('modeloMantenimientoAdministrador');
  $data['usuario'] = $this->modeloMantenimientoAdministrador->obtenerCliente($_POST['editar']);
 
@@ -67,7 +69,7 @@ class MantenimientoClientes extends CI_Controller {
  $this->load->model('modeloMantenimientoAdministrador');
  $this->modeloMantenimientoAdministrador->update($data);
  //volvemos a cargar la primera vista
- $this->index();
+  $this->index();
  }
 
 

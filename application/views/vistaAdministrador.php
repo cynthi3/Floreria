@@ -47,7 +47,7 @@
 
                 <li role="menu"><button>Clientes</button>
                     <ul>
-                        <li><a href="<?= base_url() ?>">Ver Lista de Clientes</a></li>       <!--poner la funcion que dirige a la vista -->
+                        <li><a href="<?= base_url() ?>index.php/mantenimientoClientes">Ver Lista de Clientes</a></li>       <!--poner la funcion que dirige a la vista -->
                     </ul>
                 </li>
 
@@ -68,9 +68,9 @@
                 <li role="menu"><button>Reportes</button>
                     <ul>
                         <li><a href="<?= base_url() ?>">Ventas</a></li>                      <!--poner la funcion que dirige a la vista -->
-                        <li><a href="<?= base_url() ?>">Clientes</a></li>                    <!--poner la funcion que dirige a la vista -->
+                        <li><a href="<?= base_url() ?>">Cliente</a></li>                    <!--poner la funcion que dirige a la vista -->
                         <li><a href="<?= base_url() ?>">Inventario</a></li>                  <!--poner la funcion que dirige a la vista -->
-                        <li><a href="<?= base_url() ?>">Pedidos</a></li>                     <!--poner la funcion que dirige a la vista -->
+                        <li><a href="<?= base_url() ?>index.php/mantenimientoClientes">Pedidos</a></li>                     <!--poner la funcion que dirige a la vista -->
                     </ul>
                 </li>
 
@@ -90,13 +90,13 @@
     <body>
 
         <form name="tabla" action="http://localhost/floreria/index.php/mantenimientoClientes/accion" method="POST">
-            <div class= "container"> 
-                <h2>Clientes registrados en el sistema</h2>
+            <div class= "orange container"> 
+                <p class="red box">Clientes registrados en el sistema</p>
                 <div class= "equalize row">
                     <div class="three fourths"> 
                         <div class= "container"> 
                             <table border="solid">
-                                <table class="responsive" data-max="11" style="width : 75%; font-size: 15px;" > 
+                                <table class="responsive " data-max="11" style="width : 75%; font-size: 15px;" > 
                                     <thead>
                                         <tr>
                                             <th style= "width: 15%;"> Nombre</th>
@@ -132,7 +132,7 @@
 
                     <div class="container"> 
                         <div class="one fourth padded equal">
-                            <h2>Agregar Clientes nuevos</h2>
+                            <p class="red box">Agregar Clientes nuevos.<p>
                             <form name="alta" action="http://localhost/floreria/index.php/mantenimientoClientes/alta" method="POST">
                                 <table class="responsive" data-max="1" style="width : 100%; font-size: 15px;" >
                                     <tr>
@@ -167,12 +167,12 @@
                 <html>
                     <body>
                         
-                        <div class="container">
+                        <div class="orange container">
                             <div class="equalize row">
                                 <div class="one third padded"></div>
                                 <div class="one third padded"></div>
                                 <div class="one third padded">
-                                 <p>Eliminar un cliente</p>
+                                    <p style="" class=" red box">Eliminar un cliente</p>
                                     <form name="baja" action="http://localhost/floreria/index.php/mantenimientoClientes/baja" method="POST">
                                         <table>
                                             <tr>
@@ -180,7 +180,9 @@
                                                 <td style= "width: 20%;" ><input name="txtNombre" type="text"/></td>
                                             </tr>
                                         </table>
+                                        <button class="error">
                                         <input type="submit" value="Eliminar cliente" />
+                                        </button>
                                    </form>
                                 </div>
                             </div>
