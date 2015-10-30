@@ -70,7 +70,7 @@
                         <li><a href="<?= base_url() ?>">Ventas</a></li>                      <!--poner la funcion que dirige a la vista -->
                         <li><a href="<?= base_url() ?>">Cliente</a></li>                    <!--poner la funcion que dirige a la vista -->
                         <li><a href="<?= base_url() ?>">Inventario</a></li>                  <!--poner la funcion que dirige a la vista -->
-                        <li><a href="<?= base_url() ?>index.php/mantenimientoClientes">Pedidos</a></li>                     <!--poner la funcion que dirige a la vista -->
+                        <li><a href="<?= base_url() ?>index.php/reportePedidos">Pedidos</a></li>                     <!--poner la funcion que dirige a la vista -->
                     </ul>
                 </li>
 
