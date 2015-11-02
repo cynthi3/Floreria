@@ -14,4 +14,4 @@ class modeloReporteClientes extends CI_Model {
         return $clientes->result();
     }
 }
-?>
+?>;

@@ -28,13 +28,13 @@ class ReporteClientes extends CI_Controller {
         /* Se define el titulo, márgenes izquierdo, derecho y
          * el color de relleno predeterminado
          */
-        $this->pdf->SetTitle("Lista de Clientes");
+    $this->pdf->SetTitle("Lista de Clientes");  
         $this->pdf->SetLeftMargin(15);
         $this->pdf->SetRightMargin(15);
         $this->pdf->SetFillColor(200,200,200);
  
         // Se define el formato de fuente: Arial, negritas, tamaño 9
-        $this->pdf->SetFont('Arial', 'B', 11);
+        $this->pdf->SetFont('Arial', 'B', 9);
         /*
          * TITULOS DE COLUMNAS
          *

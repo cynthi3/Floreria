@@ -9,6 +9,7 @@
         }
         // El encabezado del PDF
         public function Header(){
+            ob_end_clean();
             $this->Image('images/logo-floreria.png',10,8,22);
             $this->SetFont('Arial','B',13);
             $this->Cell(30);
