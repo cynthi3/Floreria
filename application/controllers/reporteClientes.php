@@ -40,7 +40,7 @@ class ReporteClientes extends CI_Controller {
          *
          * $this->pdf->Cell(Ancho, Alto,texto,borde,posición,alineación,relleno);
          */
- 
+        $this->pdf->Cell(10,7,'Num','TBL',0,'C','1');
         $this->pdf->Cell(15,7,'Id. Cliente','TBL',0,'C','1');
         $this->pdf->Cell(25,7,'Nombre','TB',0,'L','1');
         $this->pdf->Cell(25,7,'Apellidos','TB',0,'L','1');
@@ -52,14 +52,14 @@ class ReporteClientes extends CI_Controller {
         $x = 1;
         foreach ($clientes as $cliente) {
             // se imprime el numero actual y despues se incrementa el valor de $x en uno
-            $this->pdf->Cell(15,5,$x++,'BL',0,'C',0);
+            $this->pdf->Cell(10,5,$x++,'BL',0,'C',0);
             // Se imprimen los datos de cada alumno
-            $this->pdf->Cell(25,5,$cliente->idcliente,'B',0,'L',0);
+            $this->pdf->Cell(15,5,$cliente->idcliente,'B',0,'L',0);
             $this->pdf->Cell(25,5,$cliente->nombresCliente,'B',0,'L',0);
             $this->pdf->Cell(25,5,$cliente->apellidosCliente,'B',0,'L',0);
-            $this->pdf->Cell(40,5,$cliente->direccionCliente,'B',0,'C',0);
-            $this->pdf->Cell(25,5,$cliente->telefonoCelular,'B',0,'L',0);
-            $this->pdf->Cell(25,5,$cliente->telefonoCasa,'B',0,'L',0);
+            $this->pdf->Cell(25,5,$cliente->direccionCliente,'B',0,'C',0);
+            $this->pdf->Cell(30,5,$cliente->telefonoCelular,'B',0,'L',0);
+            $this->pdf->Cell(40,5,$cliente->telefonoCasa,'B',0,'L',0);
             //Se agrega un salto de linea
             $this->pdf->Ln(6);
         }

@@ -10,7 +10,7 @@
         // El encabezado del PDF
         public function Header(){
             ob_end_clean();
-            $this->Image('images/logo-floreria.png',10,8,22);
+            $this->Image('images/logo-floreria.png',15,12,26);
             $this->SetFont('Arial','B',13);
             $this->Cell(30);
             $this->Cell(120,10,'Florinet',0,0,'C');
