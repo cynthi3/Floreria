@@ -23,11 +23,8 @@
     <div class="one half">
     <li><a href="<?=base_url()?>" ><i class="icon-leaf"></i>  Floreria</a></li>
 
-
-
   <li ><a href="<?=base_url()?>">Arreglos Florales!</a></li>
     
-  </li>
 </div>
 
  <div class="one fourth two-up-small-tablet" ></div>
