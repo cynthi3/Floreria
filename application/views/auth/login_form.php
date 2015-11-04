@@ -3,6 +3,7 @@
 	$this->load->view('barrasDeHerramientas/barraInvitado');
 ?>
 </br>
+<div class="container">
 <?php
 $login = array(
 	'name'	=> 'login',
@@ -36,6 +37,8 @@ $captcha = array(
 	'maxlength'	=> 8,
 );
 ?>
+<center> <h2><font color="red", face="Baskerville Old Face">"Inicio de sesión"</h2></font></center>  
+<div class="one centered mobile third">
 <?php echo form_open($this->uri->uri_string()); ?>
 <table>
 	<tr>
@@ -89,10 +92,10 @@ $captcha = array(
 		<td colspan="3">
 			<?php echo form_checkbox($remember); ?>
 			<?php echo form_label('Remember me', $remember['id']); ?>
-			<?php echo anchor('/auth/forgot_password/', 'Forgot password'); ?>
-			<?php if ($this->config->item('allow_registration', 'tank_auth')) echo anchor('/auth/register/', 'Register'); ?>
+			<!--?php echo anchor('/auth/forgot_password/', 'Forgot password'); ?-->
+			<!--?php if ($this->config->item('allow_registration', 'tank_auth')) echo anchor('/auth/register/', 'Register'); ?-->
 		</td>
 	</tr>
 </table>
-<?php echo form_submit('submit', 'Let me in'); ?>
+<center><?php echo form_submit('submit', 'Let me in'); ?></center>
 <?php echo form_close(); ?>
