@@ -1,4 +1,4 @@
-<?=$this->load->view('barras/barraAdministrador');?><br/>
+<?=$this->load->view('barrasDeHerramientas/barraAdministrador');?><br/>
 
  <div class="row">
   <div class="one centered mobile fifth"><h3>Ver Todas Las Flores </h3></div>

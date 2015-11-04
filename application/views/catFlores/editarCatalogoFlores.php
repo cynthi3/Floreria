@@ -1,4 +1,4 @@
-<?=$this->load->view('barraAdministrador');?> <br><br>
+<?=$this->load->view('barrasDeHerramientas/barraAdministrador');?> <br><br>
 
 <div class="container">
  	<div class="row">
