@@ -14,9 +14,9 @@ class ControladorFloresYAccesorios extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('encabezado');
+		$this->load->view('headers/LibreriasGround');
 		$this->load->view('principal');			/* cambiar por pantalla de bienvenida */
-		$this->load->view('footer');
+		$this->load->view('footers/footer');
 	}
 
 /*+++++++++++++++++++++++++++ Funciones de Administrador+++++++++++++++++++++++++ */
@@ -24,9 +24,9 @@ class ControladorFloresYAccesorios extends CI_Controller {
 //Funciones Flores Admin
 	public function agregaFloresAdmin(){		//LISTO
 		
-			$this->load->view('encabezado');
+			$this->load->view('headers/LibreriasGround');
 			$this->load->view('catFlores/catalogoFloresAdministrador');
-			$this->load->view('footer');
+			$this->load->view('footers/footer');
 
 	}
 
@@ -49,9 +49,9 @@ class ControladorFloresYAccesorios extends CI_Controller {
 			"usuario"=> "Deybi"
 			);
 
-		$this->load->view('encabezado',$data);
+		$this->load->view('headers/LibreriasGround',$data);
 		$this->load->view('catFlores/verCatalogoFloresAdministrador',$data);
-		$this->load->view('footer',$data);
+		$this->load->view('footers/footer',$data);
 	}
 
 	public function eliminarFloresAdmin(){
@@ -83,9 +83,9 @@ class ControladorFloresYAccesorios extends CI_Controller {
 			$data = '';
 			return FALSE;
 		}
-		$this->load->view('encabezado');
+		$this->load->view('headers/LibreriasGround');
 		$this->load->view('catFlores/editarCatalogoFloresAdmin', $data);
-		$this->load->view('footer');
+		$this->load->view('footers/footer');
 
 	}
 
@@ -129,9 +129,9 @@ class ControladorFloresYAccesorios extends CI_Controller {
 
 public function agregaAccesoriosAdmin(){		//LISTO
 		
-			$this->load->view('encabezado');
+			$this->load->view('headers/LibreriasGround');
 			$this->load->view('catAccesorios/catalogoAccesoriosAdministrador');
-			$this->load->view('footer');
+			$this->load->view('footers/footer');
 
 	}
 
@@ -142,9 +142,9 @@ public function agregaAccesoriosAdmin(){		//LISTO
 			"usuario"=> "Deybi"
 			);
 
-		$this->load->view('encabezado',$data);
+		$this->load->view('headers/LibreriasGround',$data);
 		$this->load->view('catAccesorios/verCatalogoAccesoriosAdministrador',$data);
-		$this->load->view('footer',$data);
+		$this->load->view('footers/footer',$data);
 	}
 
 	public function guardarAccesorioAdmin(){			//LISTO
@@ -189,9 +189,9 @@ public function agregaAccesoriosAdmin(){		//LISTO
 			$data = '';
 			return FALSE;
 		}
-		$this->load->view('encabezado');
+		$this->load->view('headers/LibreriasGround');
 		$this->load->view('catAccesorios/editarCatalogoAccesorios', $data);
-		$this->load->view('footer');
+		$this->load->view('footers/footer');
 
 	}
 
