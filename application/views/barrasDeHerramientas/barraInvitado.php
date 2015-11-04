@@ -25,15 +25,8 @@
 
 
 
-  <li role="menu"> <button>Arreglos Florales </button>
-    <ul  role="menu">
-      <li ><a href="<?=base_url()?>">Aniversario</a></li>          <!--poner la funcion que dirige a la vista -->
-      <li ><a href="<?=base_url()?>">Cumpleaños</a></li>          <!--poner la funcion que dirige a la vista -->
-        <li ><a href="<?=base_url()?>">Bodas</a></li>          <!--poner la funcion que dirige a la vista -->
-        <li ><a href="<?=base_url()?>">Graduacion</a></li>          <!--poner la funcion que dirige a la vista -->
-        <li><a href="<?=base_url()?>">Funerarios</a></li>            <!--poner la funcion que dirige a la vista -->
-        <li><a href="<?=base_url()?>">Especiales</a></li>          <!--poner la funcion que dirige a la vista -->
-      </ul>
+  <li ><a href="<?=base_url()?>">Arreglos Florales!</a></li>
+    
   </li>
 </div>
 
