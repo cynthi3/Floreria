@@ -25,13 +25,13 @@ class ModeloFloresYAccesorios extends CI_Model {
 
 	function eliminar($id){
 
-		$this->db->where('id',$id);
+		$this->db->where('nombreProducto',$id);
 		$this->db->delete('flores');
 	}
 
-	function obtenerDatos($id){
+	function obtenerDatos($nombreProducto){
 
-		$this->db->where('id',$id);
+		$this->db->where('nombreProducto',$nombreProducto);
 		$query= $this->db->get('flores');
 		if ($query->num_rows()>0){
 			return $query;
@@ -40,8 +40,8 @@ class ModeloFloresYAccesorios extends CI_Model {
 		}
 	}
 
-	function editarFlor($id,$data){
-		$this->db->where('id',$id);
+	function editarFlor($nombreProducto,$data){
+		$this->db->where('nombreProducto',$nombreProducto);
 		$this->db->update('flores',$data);
 
 	}
@@ -73,7 +73,6 @@ class ModeloFloresYAccesorios extends CI_Model {
 	}
 
 	function guardarAccesorio($data){
-
 		$this->db->insert('accesorio',$data);
 	}
 
@@ -96,8 +95,8 @@ class ModeloFloresYAccesorios extends CI_Model {
 
 		function eliminarAccesorio($id){
 
-		$this->db->where('id',$id);
-		$this->db->delete('accesorios');
+		$this->db->where('nombre',$id);
+		$this->db->delete('accesorio');
 	}
 
 

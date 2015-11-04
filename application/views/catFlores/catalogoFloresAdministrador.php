@@ -56,11 +56,11 @@
   	</div>
 
   </br>
-	<div class="form-group" align="center">
-    
+	<div class="form-group" >
+    <div align="center">
       <button type="submit" class="btn success" id="guardar" name="guardar">Guardar</button>&nbsp;&nbsp;
-       <button type="submit" class="btn error" id="guardar" name="guardar">Cancelar</button>
-    
+       <a href="<?=base_url()?>" class="error button" id="guardar" name="guardar">Cancelar</a>
+    </div>
   </div>
 
 </div>

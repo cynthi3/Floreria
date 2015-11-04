@@ -10,8 +10,8 @@
 			<thead>
 				<tr>
 					<th>Flor</th>
-					<th>Color</th>
 					<th>Cantidad</th>
+					
 					<th>Precio</th>
 					<th>Fecha Compra</th>
 					<th>Acciones</th>
@@ -24,8 +24,8 @@
 				echo "<tr>";
 					echo "<td>".$row->nombreProducto."</td>";
 					echo "<td>".$row->cantidad."</td>";					
-					echo "<td>".$row->proveedor."</td>";
-					echo "<td>".$row->precioCompra."</td>";
+					//echo "<td>".$row->proveedor."</td>";
+					echo "<td>$ ".$row->precioCompra."</td>";
 					echo "<td>".$row->fechaCompra."</td>";
 					echo "<td>";
 					echo "<a href='".base_url()."controladorFloresYAccesorios/editarAdmin/".$row->nombreProducto."'><i class='icon-edit icon-2x green'></a></i>";

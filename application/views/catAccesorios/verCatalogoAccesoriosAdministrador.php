@@ -35,7 +35,7 @@
 					echo "<td>".$row->color."</td>";
 					echo "<td>".$row->descripcion."</td>";
 					echo "<td>".$row->cantidad."</td>";
-					echo "<td>".$row->precio."</td>";
+					echo "<td>$ ".$row->precio."</td>";
 					echo "<td>";
 					echo "<a href='".base_url()."controladorFloresYAccesorios/editarAccesoriosAdmin/".$row->nombre."' ><i class='icon-edit icon-2x green'></a></i>";
 					echo "&nbsp;&nbsp;&nbsp;";
