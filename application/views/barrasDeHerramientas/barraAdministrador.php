@@ -49,7 +49,7 @@
 
   <li role="menu"><button>Clientes</button>
     <ul>
-        <li><a href="<?=base_url()?>">Ver Lista de Clientes</a></li>       <!--poner la funcion que dirige a la vista -->
+        <li><a href="<?=base_url()?>index.php/mantenimientoClientes">Ver Lista de Clientes</a></li>       <!--poner la funcion que dirige a la vista -->
     </ul>
   </li>
 
@@ -70,9 +70,9 @@
       <li role="menu"><button>Reportes</button>
         <ul>
         <li><a href="<?=base_url()?>">Ventas</a></li>                      <!--poner la funcion que dirige a la vista -->
-        <li><a href="<?=base_url()?>">Clientes</a></li>                    <!--poner la funcion que dirige a la vista -->
-        <li><a href="<?=base_url()?>">Inventario</a></li>                  <!--poner la funcion que dirige a la vista -->
-        <li><a href="<?=base_url()?>">Pedidos</a></li>                     <!--poner la funcion que dirige a la vista -->
+        <li><a href="<?=base_url()?>index.php/reporteClientes">Clientes</a></li>                    <!--poner la funcion que dirige a la vista -->
+        <li><a href="<?=base_url()?>index.php/reporteInventario">Inventario</a></li>                  <!--poner la funcion que dirige a la vista -->
+        <li><a href="<?=base_url()?>index.php/reportePedidos">Pedidos</a></li>                     <!--poner la funcion que dirige a la vista -->
         </ul>
       </li>
 </div>
