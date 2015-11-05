@@ -18,29 +18,26 @@
       <div class="one half padded">
         <label for="name">Tipo:</label>
            <span class="select-wrap">
-            <select class="unselected" id="nombreProducto" name="nombreProducto">
+            <select class="unselected" id="nombreProducto" name="nombreProducto" required="true">
                 <option value="">Seleccione Tipo de Flor</option>
-                <option value="R_A">Rosal (Azul)</option>
-                <option value="R_B">Rosal (Blanco)</option>
-                <option value="R_RE">Rosal (Rojo)</option>
-                <option value="R_AM">Rosal (Amarillo)</option>
-                <option value="R_RO">Rosal (Rosado)</option>
-                <option value="C_A">Clavel (Amarillo)</option>
-                <option value="C_R">Clavel (Rojo)</option>
-                <option value="C_M">Clavel (Morado)</option>
-                <option value="T_A">Tulipan (Amarillo)</option>
-                 <option value="T_R">Tulipan (Rojo)</option>
+                <option value="Rosal (Azul)">Rosal (Azul)</option>
+                <option value="Rosal (Blanco)">Rosal (Blanco)</option>
+                <option value="Rosal (Rojo)">Rosal (Rojo)</option>
+                <option value="Rosal (Amarillo)">Rosal (Amarillo)</option>
+                <option value="Rosal (Rosado)">Rosal (Rosado)</option>
+                <option value="Clavel (Amarillo)">Clavel (Amarillo)</option>
+                <option value="Clavel (Rojo)">Clavel (Rojo)</option>
+                <option value="Clavel (Morado)">Clavel (Morado)</option>
+                <option value="Tulipan (Amarillo)">Tulipan (Amarillo)</option>
+                 <option value="Tulipan (Rojo)">Tulipan (Rojo)</option>
             </select></span>
       </div>
     
-      <div class="one half padded">
-        <label for="name">Proveedor:</label>
-        <span class="select-wrap">
-            <select class="unselected" id="color" name="color">
-                <option value="">Seleccione un Proveedor</option>
-                <!--Proveedores-->
-            </select></span>
-        </div>
+    <div class="one half padded">
+      <label for="inputEmail3" >Proveedor:</label>
+         <input type="text" id="proveedor" name="proveedor" placeholder="Seleccione un Proveedor">
+    </div>
+
     </div>
  </div>
 
@@ -56,11 +53,11 @@
   	</div>
 
   </br>
-	<div class="form-group" align="center">
-    
+	<div class="form-group" >
+    <div align="center">
       <button type="submit" class="btn success" id="guardar" name="guardar">Guardar</button>&nbsp;&nbsp;
-       <button type="submit" class="btn error" id="guardar" name="guardar">Cancelar</button>
-    
+       <a href="<?=base_url()?>" class="error button" id="guardar" name="guardar">Cancelar</a>
+    </div>
   </div>
 
 </div>

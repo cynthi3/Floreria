@@ -55,17 +55,18 @@ class ControladorFloresYAccesorios extends CI_Controller {
 	}
 
 	public function eliminarFloresAdmin(){
-		echo $id = $this->uri->segment(3);
-		$this->modeloFloresYAccesorios->eliminar($id);
+		echo $idFlor = $this->uri->segment(3);
+		$this->modeloFloresYAccesorios->eliminar($idFlor);
 		redirect('controladorFloresYAccesorios/catalogoFloresAdmin');
 	}
 
-	public  function editarAdmin(){
-		$id = $this->uri->segment(3);
-		$obtenerDatos = $this->modeloFloresYAccesorios->obtenerDatos($id);
+	public  function editarAdmin(){			//editar flores del catalogo
+		$idFlor = $this->uri->segment(3);
+		$obtenerDatos = $this->modeloFloresYAccesorios->obtenerDatos($idFlor);
 
 		if ($obtenerDatos != FALSE){
 			foreach ($obtenerDatos->result() as $row) {
+				$id = $row->idFlor;
 				$nombreProducto = $row->nombreProducto;
 				$precioCompra=$row->precioCompra;
 				$cantidad=$row->cantidad;
@@ -73,6 +74,7 @@ class ControladorFloresYAccesorios extends CI_Controller {
 				$fechaCompra=$row->fechaCompra;
 			}
 			$data= array(
+				'idFlor' => $idFlor,
 				'nombreProducto' => $nombreProducto,
 				'precioCompra'  => $precioCompra,
 				'cantidad'  => $cantidad,
@@ -84,13 +86,13 @@ class ControladorFloresYAccesorios extends CI_Controller {
 			return FALSE;
 		}
 		$this->load->view('headers/LibreriasGround');
-		$this->load->view('catFlores/editarCatalogoFloresAdmin', $data);
+		$this->load->view('catFlores/editarCatalogoFlores', $data, $idFlor);
 		$this->load->view('footers/footer');
 
 	}
 
 	function editarFlorAdmin(){
-		$id=$this->uri->segment(3);
+		$idFlor=$this->uri->segment(3);
 		$data = array(
 			'nombreProducto' => $this->input->post('nombreProducto',TRUE),
 			'precioCompra' => $this->input->post('precioCompra',TRUE),
@@ -99,7 +101,7 @@ class ControladorFloresYAccesorios extends CI_Controller {
 			'fechaCompra' => $this->input->post('precio',TRUE)
 			 );
 
-		$this->modeloFloresYAccesorios->editarFlor($id,$data);
+		$this->modeloFloresYAccesorios->editarFlor($idFlor,$data);
 		redirect('controladorFloresYAccesorios/catalogoFloresAdmin');
 	}
 
@@ -163,11 +165,12 @@ public function agregaAccesoriosAdmin(){		//LISTO
 
 
 		public  function editarAccesoriosAdmin(){
-		$nombre = $this->uri->segment(3);
-		$obtenerDatos = $this->modeloFloresYAccesorios->obtenerAccesorios($nombre);
+		$idAcc = $this->uri->segment(3);
+		$obtenerDatos = $this->modeloFloresYAccesorios->obtenerAccesorios($idAcc);
 
 		if ($obtenerDatos != FALSE){
 			foreach ($obtenerDatos->result() as $row) {
+				$id = $row->idAcc;
 				$nombre = $row->nombre;
 				$cantidad=$row->cantidad;
 				$precio=$row->precio;
@@ -177,6 +180,7 @@ public function agregaAccesoriosAdmin(){		//LISTO
 				$descripcion=$row->descripcion;
 			}
 			$data= array(
+				'idAcc' => $idAcc,
 				'nombre' => $nombre,
 				'cantidad'  => $cantidad,
 				'precio'  => $precio,
@@ -190,13 +194,13 @@ public function agregaAccesoriosAdmin(){		//LISTO
 			return FALSE;
 		}
 		$this->load->view('headers/LibreriasGround');
-		$this->load->view('catAccesorios/editarCatalogoAccesorios', $data);
+		$this->load->view('catAccesorios/editarCatalogoAccesorios', $data,$idAcc);
 		$this->load->view('footers/footer');
 
 	}
 
 	function editarUnAccesorioAdmin(){
-		$nombre=$this->uri->segment(3);
+		$idAcc=$this->uri->segment(3);
 		$data = array(
 			'nombre' => $this->input->post('nombre',TRUE),
 			'cantidad' => $this->input->post('cantidad',TRUE),
@@ -207,7 +211,7 @@ public function agregaAccesoriosAdmin(){		//LISTO
 			'descripcion' => $this->input->post('descripcion',TRUE)						
 			 );
 
-		$this->modeloFloresYAccesorios->editarAccesorio($nombre,$data);
+		$this->modeloFloresYAccesorios->editarAccesorio($idAcc,$data);
 		redirect('controladorFloresYAccesorios/catalogoAccesoriosAdmin');
 	}
 
