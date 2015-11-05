@@ -5,8 +5,9 @@
 </div>
 
 <div class="container">
-	<div class="col-md-12">
-		<table data-max="15" class="responsive success responsiveTable" style="width: 100%; font-size: 15px;">
+	<div class="one fifth"></div>
+	<div class="three fifths">
+		<table data-max="15" class="responsive success responsiveTable" style="width: 90%; font-size: 15px;" >
 			<thead>
 				<tr>
 					<th>Flor</th>
@@ -28,9 +29,9 @@
 					echo "<td>$ ".$row->precioCompra."</td>";
 					echo "<td>".$row->fechaCompra."</td>";
 					echo "<td>";
-					echo "<a href='".base_url()."controladorFloresYAccesorios/editarAdmin/".$row->nombreProducto."'><i class='icon-edit icon-2x green'></a></i>";
+					echo "<a href='".base_url()."controladorFloresYAccesorios/editarAdmin/".$row->idFlor."'><i class='icon-edit icon-2x green'></a></i>";
 					echo "&nbsp;&nbsp;&nbsp;";
-					echo "<a href='".base_url()."controladorFloresYAccesorios/eliminarFloresAdmin/".$row->nombreProducto."' ><i class='icon-eraser icon-2x red'></a></i>";
+					echo "<a href='".base_url()."controladorFloresYAccesorios/eliminarFloresAdmin/".$row->idFlor."' ><i class='icon-eraser icon-2x red'></a></i>";
 				echo "</tr>";
 				}
 			}

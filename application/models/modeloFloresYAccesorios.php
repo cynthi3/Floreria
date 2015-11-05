@@ -23,15 +23,15 @@ class ModeloFloresYAccesorios extends CI_Model {
 		}
 	}
 
-	function eliminar($id){
+	function eliminar($idFlor){
 
-		$this->db->where('nombreProducto',$id);
+		$this->db->where('idFlor',$idFlor);
 		$this->db->delete('flores');
 	}
 
-	function obtenerDatos($nombreProducto){
+	function obtenerDatos($idFlor){
 
-		$this->db->where('nombreProducto',$nombreProducto);
+		$this->db->where('idFlor',$idFlor);
 		$query= $this->db->get('flores');
 		if ($query->num_rows()>0){
 			return $query;
@@ -61,6 +61,8 @@ class ModeloFloresYAccesorios extends CI_Model {
 
 
 
+/////////////////////////////////////////////////
+
 	function verTodoAccesorios(){
 
 		$query= $this->db->get('accesorio');
@@ -76,9 +78,9 @@ class ModeloFloresYAccesorios extends CI_Model {
 		$this->db->insert('accesorio',$data);
 	}
 
-	function obtenerAccesorios($nombre){
+	function obtenerAccesorios($idAcc){
 
-		$this->db->where('nombre',$nombre);
+		$this->db->where('idAcc',$idAcc);
 		$query= $this->db->get('accesorio');
 		if ($query->num_rows()>0){
 			return $query;
@@ -87,15 +89,15 @@ class ModeloFloresYAccesorios extends CI_Model {
 		}
 	}
 
-	function editarAccesorio($nombre,$data){
-		$this->db->where('nombre',$nombre);
+	function editarAccesorio($idAcc,$data){
+		$this->db->where('idAcc',$idAcc);
 		$this->db->update('accesorio',$data);
 
 	}
 
 		function eliminarAccesorio($id){
 
-		$this->db->where('nombre',$id);
+		$this->db->where('idAcc',$id);
 		$this->db->delete('accesorio');
 	}
 

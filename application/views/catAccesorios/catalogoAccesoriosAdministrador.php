@@ -15,38 +15,38 @@
     <div class="row">
       <div class="one third padded">
         <label>Articulo:</label>
-            <select class="form-control" id="nombre" name="nombre">
+            <select class="form-control" id="nombre" name="nombre" required="true">
                 <option value="">Seleccione un Articulo:</option>
-                <option value="canasta">Canasta</option>
-                <option value="mono">Moño</option>
-                <option value="plumas">Plumas</option>
-                 <option value="celofan">Celofan</option>
-                  <option value="calcomanias">Calcomanias</option>
+                <option value="Canasta">Canasta</option>
+                <option value="Moño">Moño</option>
+                <option value="Plumas">Plumas</option>
+                 <option value="Celofan">Celofan</option>
+                  <option value="Calcomanias">Calcomanias</option>
             </select>
        </div>
 
       <div class="one third padded">
         <label >Tamaño:</label>
         
-            <select class="form-control" id="tamano" name="tamano">
+            <select class="form-control" id="tamano" name="tamano" required="true">
                 <option value="">Seleccione un Tamaño</option>
-                <option value="pequeno">Pequeño</option>
-                <option value="mediano">Mediano</option>
-                <option value="grande">Grande</option>
-                <option value="xgrande">Extra Grande</option>
+                <option value="Pequeno">Pequeño</option>
+                <option value="Mediano">Mediano</option>
+                <option value="Grande">Grande</option>
+                <option value="XGrande">Extra Grande</option>
             </select>
       </div>
     
    <div class="one third padded">
         <label >Color:</label>
         <div >
-            <select class="form-control" id="color" name="color">
+            <select class="form-control" id="color" name="color" required="true">
                 <option value="">Seleccione un color</option>
-                <option value="rosa">Rosado</option>
-                <option value="azul">Azul</option>
-                <option value="violeta">Violeta</option>
-                <option value="naranja">Anaranjado</option>
-                <option value="rojo">Rojo</option>
+                <option value="Rosa">Rosado</option>
+                <option value="Azul">Azul</option>
+                <option value="Violeta">Violeta</option>
+                <option value="Naranja">Anaranjado</option>
+                <option value="Rojo">Rojo</option>
             </select>
         </div>
     </div>

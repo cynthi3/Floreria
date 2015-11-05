@@ -11,9 +11,9 @@
 	
 </div>
 
-<div class="container">
+<div class="container" align="center">
 	
-		<table class="responsive success responsiveTable" style="width: 100%; font-size: 15px;">
+		<table class="responsive success responsiveTable" style="width: 80%; font-size: 15px;" >
 			<thead>
 				<tr>
 					<th>Articulo</th>
@@ -37,9 +37,9 @@
 					echo "<td>".$row->cantidad."</td>";
 					echo "<td>$ ".$row->precio."</td>";
 					echo "<td>";
-					echo "<a href='".base_url()."controladorFloresYAccesorios/editarAccesoriosAdmin/".$row->nombre."' ><i class='icon-edit icon-2x green'></a></i>";
+					echo "<a href='".base_url()."controladorFloresYAccesorios/editarAccesoriosAdmin/".$row->idAcc."' ><i class='icon-edit icon-2x green'></a></i>";
 					echo "&nbsp;&nbsp;&nbsp;";
-					echo "<a href='".base_url()."controladorFloresYAccesorios/eliminaAccesorioAdmin/".$row->nombre."' ><span class='icon-eraser icon-2x red'></a></span>";
+					echo "<a href='".base_url()."controladorFloresYAccesorios/eliminaAccesorioAdmin/".$row->idAcc."' ><span class='icon-eraser icon-2x red'></a></span>";
 				echo "</tr>";
 				}
 			}

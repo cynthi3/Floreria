@@ -6,7 +6,7 @@
 
  	<h3 align="center">Editar Flor <?=$nombreProducto?> </h3>
 
-<form role="form" id="form" name="form" action="<?=base_url()?>controladorFloresYAccesorios/editarFlorAdmin" method="POST">
+<form role="form" id="form" name="form" action="<?=base_url()?>controladorFloresYAccesorios/editarFlorAdmin/<?=$idFlor?>" method="POST">
 <fieldset>
   <legend>Editar Flor</legend>
     <div class="row">
@@ -14,29 +14,26 @@
       <div class="one half padded">
         <label for="name">Tipo:</label>
            <span class="select-wrap">
-            <select class="unselected" id="nombreProducto" name="nombreProducto">
+            <select class="unselected" id="nombreProducto" name="nombreProducto" required="true">
                 <option value="">Seleccione Tipo de Flor</option>
-                <option value="R_A">Rosal (Azul)</option>
-                <option value="R_B">Rosal (Blanco)</option>
-                <option value="R_RE">Rosal (Rojo)</option>
-                <option value="R_AM">Rosal (Amarillo)</option>
-                <option value="R_RO">Rosal (Rosado)</option>
-                <option value="C_A">Clavel (Amarillo)</option>
-                <option value="C_R">Clavel (Rojo)</option>
-                <option value="C_M">Clavel (Morado)</option>
-                <option value="T_A">Tulipan (Amarillo)</option>
-                 <option value="T_R">Tulipan (Rojo)</option>
+                <option value="Rosal (Azul)">Rosal (Azul)</option>
+                <option value="Rosal (Blanco)">Rosal (Blanco)</option>
+                <option value="Rosal (Rojo)">Rosal (Rojo)</option>
+                <option value="Rosal (Amarillo)">Rosal (Amarillo)</option>
+                <option value="Rosal (Rosado)">Rosal (Rosado)</option>
+                <option value="Clavel (Amarillo)">Clavel (Amarillo)</option>
+                <option value="Clavel (Rojo)">Clavel (Rojo)</option>
+                <option value="Clavel (Morado)">Clavel (Morado)</option>
+                <option value="Tulipan (Amarillo)">Tulipan (Amarillo)</option>
+                 <option value="Tulipan (Rojo)">Tulipan (Rojo)</option>
             </select></span>
       </div>
     
-      <div class="one half padded">
-        <label for="name">Proveedor:</label>
-        <span class="select-wrap">
-            <select class="unselected" id="color" name="color">
-                <option value="">Seleccione un Proveedor</option>
-                <!--Proveedores-->
-            </select></span>
-        </div>
+    <div class="one half padded">
+      <label for="inputEmail3" >Proveedor:</label>
+         <input type="text" id="proveedor" name="proveedor" placeholder="Seleccione un Proveedor" value="<?=$proveedor?>">
+    </div>
+
     </div>
  </div>
 
