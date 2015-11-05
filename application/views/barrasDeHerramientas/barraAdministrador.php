@@ -35,15 +35,17 @@
 
     <li role="menu"><button>Articulos</button>
       <ul>
-        <li><a href="<?=base_url()?>controladorFloresYAccesorios/agregaAccesoriosAdmin">Editar Catalogo</a></li>           <!--poner la funcion que dirige a la vista -->
-        <li><a href="<?=base_url()?>controladorFloresYAccesorios/catalogoAccesoriosAdmin">Ver Catalogo</a></li>              <!--poner la funcion que dirige a la vista -->
+        <li><a href="<?=base_url()?>controladorFloresYAccesorios/smallCatalogoAcc">Ver Catalogo</a></li>  
+        <li><a href="<?=base_url()?>controladorFloresYAccesorios/catalogoAccesoriosAdmin">Editar Catalogo</a></li>           <!--poner la funcion que dirige a la vista -->
+                    <!--poner la funcion que dirige a la vista -->
       </ul>
     </li>
 
     <li role="menu"><button>Flores</button>
       <ul>
-        <li><a href="<?=base_url()?>controladorFloresYAccesorios/agregaFloresAdmin">Editar Catalogo</a></li>           <!--poner la funcion que dirige a la vista -->
-        <li><a href="<?=base_url()?>controladorFloresYAccesorios/catalogoFloresAdmin">Ver Catalogo</a></li>              <!--poner la funcion que dirige a la vista -->
+        <li><a href="<?=base_url()?>controladorFloresYAccesorios/smallCatalogoFlores">Ver Catalogo</a></li> 
+        <li><a href="<?=base_url()?>controladorFloresYAccesorios/catalogoFloresAdmin">Editar Catalogo</a></li>           <!--poner la funcion que dirige a la vista -->
+                     <!--poner la funcion que dirige a la vista -->
       </ul>
     </li>
 

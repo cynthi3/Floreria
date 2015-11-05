@@ -1,14 +1,18 @@
 <?=$this->load->view('barrasDeHerramientas/barraAdministrador');?> <br>
 
-<div class="container">
+<div class="container fadeInUp animated">
  	<div class="row">
- 		<div class="col-md-8">
+ 		
 
- 	<h3 align="center">Editar Flor <?=$nombreProducto?> </h3>
+ <div class="row">
+  <div class="one centered mobile fifth"><h3>Agregar Flores a Catalogo </h3></div>
+</div>
 
-<form role="form" id="form" name="form" action="<?=base_url()?>controladorFloresYAccesorios/editarFlorAdmin/<?=$idFlor?>" method="POST">
+<form class="form-horizontal" role="form" id="form" name="form" action="<?=base_url()?>controladorFloresYaccesorios/guardarFloresAdmin" method="POST">
+
 <fieldset>
-  <legend>Editar Flor</legend>
+  <legend>  Nuevo elemento</legend>
+
     <div class="row">
       <div class="row">
       <div class="one half padded">
@@ -31,28 +35,28 @@
     
     <div class="one half padded">
       <label for="inputEmail3" >Proveedor:</label>
-         <input type="text" id="proveedor" name="proveedor" placeholder="Seleccione un Proveedor" value="<?=$proveedor?>">
+         <input type="text" id="proveedor" name="proveedor" placeholder="Seleccione un Proveedor">
     </div>
 
     </div>
  </div>
 
 <div class="row">
-    <div class="one half padded">
-      <label for="inputEmail3" >Cantidad:</label>
-         <input type="text" id="cantidad" name="cantidad" placeholder="0" value="<?=$cantidad?>">  
-    </div>
+  	<div class="one half padded">
+    	<label for="inputEmail3" >Cantidad:</label>
+   			 <input type="text" id="cantidad" name="cantidad" placeholder="0"> 	
+  	</div>
 
-    <div class="one half padded">
-      <label for="inputEmail3" >Precio:</label>
-         <input type="text" id="precioCompra" name="precioCompra" placeholder="$ 0.0" value="<?=$precioCompra?>">
-    </div>
+  	<div class="one half padded">
+    	<label for="inputEmail3" >Precio:</label>
+   			 <input type="text" id="precioCompra" name="precioCompra" placeholder="$ 0.0">
+  	</div>
 
   </br>
-  <div class="form-group" >
+	<div class="form-group" >
     <div align="center">
       <button type="submit" class="btn success" id="guardar" name="guardar">Guardar</button>&nbsp;&nbsp;
-       <a href="<?=base_url()?>controladorFloresYAccesorios/catalogoFloresAdmin" class="error button" id="guardar" name="guardar">Cancelar</a>
+       <a href="<?=base_url()?>controladorFloresYAccesorios/smallCatalogoFlores" class="error button" id="guardar" name="guardar">Cancelar</a>
     </div>
   </div>
 
@@ -60,7 +64,7 @@
 	</fieldset>
 </form>
 
- </div>
+ 
 </div>
 
  </div>

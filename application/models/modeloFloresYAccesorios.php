@@ -101,5 +101,30 @@ class ModeloFloresYAccesorios extends CI_Model {
 		$this->db->delete('accesorio');
 	}
 
+////////////////////////////////////////////
+
+	function consultaAccesorios(){
+		$query = "SELECT nombre, SUM(cantidad) FROM accesorio GROUP BY nombre"; 
+		$result = mysql_query($query) or die(mysql_error());
+
+		while($row = mysql_fetch_array($result)){
+			echo "Total ". $row['nombre']. " = $". $row['SUM(cantidad)'];
+			echo "<br />";
+			}
+
+	}
+
+		function consultaFlores(){
+		$this->db->where('nombreProducto','celofan');
+		$query= $this->db->get('accesorio');
+		if ($query->num_rows()>0){
+			return $query;
+		}else{
+			return FALSE;
+		}
+
+	}
+
+
 
 }

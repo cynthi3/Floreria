@@ -1,6 +1,6 @@
 <?=$this->load->view('barrasDeHerramientas/barraAdministrador');?> <br>
 
-<div class="container">
+<div class="container fadeInDown animated">
 		
 	 <div class="row">
   <div class="one centered mobile fifth"><h3>Ver Todos Los Articulos</h3></div>
@@ -8,7 +8,7 @@
 	
 </div>
 
-<div class="container" align="center">
+<div class="container fadeInDown animated" align="center">
 	
 		<table class="responsive success responsiveTable" style="width: 80%; font-size: 15px;" >
 			<thead>
@@ -47,4 +47,12 @@
 			</tbody>
 		</table>
 	</div>
-
+</br>
+<div class="row fadeInDown animated">
+	<div class="one twelfth"></div>
+  <div class="three twelfths"></div>
+		<div class="row">
+			<div class="five twelfths"></div>
+		<a class="button green" href="<?=base_url()?>controladorFloresYAccesorios/agregaAccesoriosAdmin"><i class="icon-th-list"></i>  Agregar Accesorio Nuevo</a>
+	</div>
+</div>

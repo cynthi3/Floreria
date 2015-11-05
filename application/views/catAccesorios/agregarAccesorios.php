@@ -4,13 +4,13 @@
  	<div class="row">
 
  <div class="row">
-  <div class="one centered mobile fifth"><h3>Editar Accesorio <u><?=$nombre?> </u></h3></div>
+  <div class="one centered mobile fifth "><h3>Agregar Accesorios </h3></div>
 </div>
 
-<form id="form" name="form" action="<?=base_url()?>controladorFloresYAccesorios/editarUnAccesorioAdmin/<?=$idAcc?>" method="POST">
+<form id="form" name="form" action="<?=base_url()?>controladorFloresYAccesorios/guardarAccesorioAdmin" method="POST">
 
 <fieldset>
-  <legend>Editar Articulo</legend>
+  <legend>Nuevo Articulo</legend>
 
     <div class="row">
       <div class="one third padded">
@@ -57,21 +57,21 @@
 <div class="row">
    <div class="three sixth padded">
         <label for="message">Descripcion:</label>
-        <textarea id="descripcion" name="descripcion" type="text" placeholder="Descripcion del producto" ><?=$descripcion?></textarea>
+        <textarea id="descripcion" name="descripcion" type="text" placeholder="Descripcion del producto"></textarea>
     </div>
 
 
   	<div class="three sixth padded">
     	<label for="inputEmail3" >Cantidad:</label>
     		
-   			 <input type="text"  id="cantidad" name="cantidad" placeholder="0" value="<?=$cantidad?>">
+   			 <input type="text"  id="cantidad" name="cantidad" placeholder="0">
     		
   	</div>
 
   	<div class="three sixth padded">
     	<label for="inputEmail3" >Precio:</label>
     		
-   			 <input type="text"  id="precio" name="precio" placeholder="$ 0.0" value="<?=$precio?>">
+   			 <input type="text"  id="precio" name="precio" placeholder="$ 0.0">
     	
   	</div>
 
@@ -81,13 +81,15 @@
 	<div class="form-group">
     <div align="center">
       <button type="submit" class="info" id="guardar" name="guardar">Guardar</button> &nbsp;
-     <a class="error button" href="<?=base_url()?>controladorFloresYAccesorios/catalogoAccesoriosAdmin" class="error" id="cancelar" name="cancelar"> Cancelar</a>
-    </div>
+      <a class="error button" href="<?=base_url()?>controladorFloresYAccesorios/smallCatalogoAcc" class="error" id="cancelar" name="cancelar"> Cancelar</a>
+  
+        </div>
   </div>
 
 
 	</fieldset>
 </form>
+
 
  </div>
 </div>

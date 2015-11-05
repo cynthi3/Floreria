@@ -25,7 +25,7 @@ class ControladorFloresYAccesorios extends CI_Controller {
 	public function agregaFloresAdmin(){		//LISTO
 		
 			$this->load->view('headers/LibreriasGround');
-			$this->load->view('catFlores/catalogoFloresAdministrador');
+			$this->load->view('catFlores/agregarFlores');
 			$this->load->view('footers/footer');
 
 	}
@@ -50,7 +50,7 @@ class ControladorFloresYAccesorios extends CI_Controller {
 			);
 
 		$this->load->view('headers/LibreriasGround',$data);
-		$this->load->view('catFlores/verCatalogoFloresAdministrador',$data);
+		$this->load->view('catFlores/verCatalogoFloresCompleto',$data);
 		$this->load->view('footers/footer',$data);
 	}
 
@@ -86,7 +86,7 @@ class ControladorFloresYAccesorios extends CI_Controller {
 			return FALSE;
 		}
 		$this->load->view('headers/LibreriasGround');
-		$this->load->view('catFlores/editarCatalogoFlores', $data, $idFlor);
+		$this->load->view('catFlores/editarFlores', $data, $idFlor);
 		$this->load->view('footers/footer');
 
 	}
@@ -98,7 +98,7 @@ class ControladorFloresYAccesorios extends CI_Controller {
 			'precioCompra' => $this->input->post('precioCompra',TRUE),
 			'cantidad' => $this->input->post('cantidad',TRUE),
 			'proveedor' => $this->input->post('proveedor',TRUE),
-			'fechaCompra' => $this->input->post('precio',TRUE)
+			'fechaCompra' => $this->input->post('fechaCompra',TRUE)
 			 );
 
 		$this->modeloFloresYAccesorios->editarFlor($idFlor,$data);
@@ -132,7 +132,7 @@ class ControladorFloresYAccesorios extends CI_Controller {
 public function agregaAccesoriosAdmin(){		//LISTO
 		
 			$this->load->view('headers/LibreriasGround');
-			$this->load->view('catAccesorios/catalogoAccesoriosAdministrador');
+			$this->load->view('catAccesorios/agregarAccesorios');
 			$this->load->view('footers/footer');
 
 	}
@@ -220,6 +220,29 @@ public function agregaAccesoriosAdmin(){		//LISTO
 		$this->modeloFloresYAccesorios->eliminarAccesorio($id);
 		redirect('controladorFloresYAccesorios/catalogoAccesoriosAdmin');
 	}
+
+////////////////////////////////////////////////////
+
+
+function smallCatalogoAcc(){
+
+	$this->load->view('headers/LibreriasGround');
+	$this->load->view('catAccesorios/catalogoAccesoriosAdministrador');
+	$this->load->view('footers/footer');
+
+}
+
+
+
+
+function smallCatalogoFlores(){
+
+	$this->load->view('headers/LibreriasGround');
+	$this->load->view('catFlores/catalogoReducidoFlores');
+	$this->load->view('footers/footer');
+
+}
+
 
 
 }
