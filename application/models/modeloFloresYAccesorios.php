@@ -29,9 +29,9 @@ class ModeloFloresYAccesorios extends CI_Model {
 		$this->db->delete('flores');
 	}
 
-	function obtenerDatos($idFlor){
+	function obtenerDatos($id){
 
-		$this->db->where('idFlor',$idFlor);
+		$this->db->where('idFlor',$id);
 		$query= $this->db->get('flores');
 		if ($query->num_rows()>0){
 			return $query;
@@ -40,8 +40,8 @@ class ModeloFloresYAccesorios extends CI_Model {
 		}
 	}
 
-	function editarFlor($nombreProducto,$data){
-		$this->db->where('nombreProducto',$nombreProducto);
+	function editarFlor($idFlor,$data){
+		$this->db->where('idFlor',$idFlor);
 		$this->db->update('flores',$data);
 
 	}

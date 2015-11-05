@@ -66,7 +66,7 @@ class ControladorFloresYAccesorios extends CI_Controller {
 
 		if ($obtenerDatos != FALSE){
 			foreach ($obtenerDatos->result() as $row) {
-				$idFlor = $row->idFlor;
+				$id = $row->idFlor;
 				$nombreProducto = $row->nombreProducto;
 				$precioCompra=$row->precioCompra;
 				$cantidad=$row->cantidad;
@@ -86,13 +86,13 @@ class ControladorFloresYAccesorios extends CI_Controller {
 			return FALSE;
 		}
 		$this->load->view('headers/LibreriasGround');
-		$this->load->view('catFlores/editarCatalogoFlores', $data);
+		$this->load->view('catFlores/editarCatalogoFlores', $data, $idFlor);
 		$this->load->view('footers/footer');
 
 	}
 
 	function editarFlorAdmin(){
-		$nombreProducto=$this->uri->segment(3);
+		$idFlor=$this->uri->segment(3);
 		$data = array(
 			'nombreProducto' => $this->input->post('nombreProducto',TRUE),
 			'precioCompra' => $this->input->post('precioCompra',TRUE),

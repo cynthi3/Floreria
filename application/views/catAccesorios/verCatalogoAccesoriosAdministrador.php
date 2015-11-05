@@ -1,8 +1,5 @@
 <?=$this->load->view('barrasDeHerramientas/barraAdministrador');?> <br>
 
-
-
-
 <div class="container">
 		
 	 <div class="row">
